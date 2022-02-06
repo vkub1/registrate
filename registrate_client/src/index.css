@@ -1,13 +1,129 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("bg-intro-desktop.png");
+  background-color: #FF7979;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#form {
+  
+  background-color: white;
+  width: 540px;
+  height: 612px; 
 }
+
+.form-field {
+  background: #FFFFFF;
+  border: 1px solid #5E54A4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 460px;
+
+}
+
+.form-field::placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+
+  color: #3D3B48;
+}
+
+#landing-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+  /* or 110% */
+
+  letter-spacing: -0.520833px;
+
+  color: #FFFFFF;
+}
+
+#landing-title {
+  position: relative;
+  height: 131px;
+  width: 525px;
+  left: 165px;
+  right: 45px;
+}
+
+select option {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+
+  color: #3D3B48;
+}
+
+.submit {
+  background: #38CC8B;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  border-radius: 5px;
+  height: 56px;
+  color: white;
+  border: white;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#registration-details {
+  
+  width: 540px;
+  height: 612px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+}
+
+p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+
+  letter-spacing: 0.25px;
+
+  color: #3D3B48;
+}
+
+.button-back {
+  background: #5E54A4;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+  width: 540px;
+  
+  height: 60px;
+  color: white;
+}
+
+#thanking-text-container {
+  width: 525px;
+  height: 131px;
+  text-align: center;
+}
+
+
+
